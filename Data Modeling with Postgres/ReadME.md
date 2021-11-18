@@ -1,4 +1,4 @@
-Files used on the project:
+### Files used on the project:
 
 1. **data** folder nested at the home of the project, where all needed jsons reside.
 2. **sql_queries.py** contains all your sql queries, and is imported into the files bellow.
@@ -19,4 +19,16 @@ python create_tables.py
 3º Run etl in console, and verify results:
  ```
 python etl.py
+```
+
+### Finally we test song and artist id from their tables by song name, artist name and song duration that we have on our song play dataset. The magic query used is the following:
+
+```
+
+        %ELECT song_id, artists.artist_id
+        FROM songs JOIN artists ON songs.artist_id = artists.artist_id
+        WHERE songs.title = %s
+        AND artists.name = %s
+        AND songs.duration = %s
+ 
 ```
