@@ -9,14 +9,14 @@
 
 ### Break down of steps followed
 
-1º Wrote DROP, CREATE and INSERT query statements in sql_queries.py
+1 Wrote DROP, CREATE and INSERT query statements in sql_queries.py
 
-2º Run in console
+2 Run in console
  ```
 python create_tables.py
 ```
 
-3º Run etl in console, and verify results:
+3 Run etl in console, and verify results:
  ```
 python etl.py
 ```
