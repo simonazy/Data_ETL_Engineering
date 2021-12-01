@@ -21,7 +21,7 @@ python create_tables.py
 python etl.py
 ```
 
-### Finally we test song and artist id from their tables by song name, artist name and song duration that we have on our song play dataset. The magic query used is the following:
+### Finally I test song and artist id from their tables by song name, artist name and song duration that we have on our song play dataset. The magic query used is the following:
 
 ```
 
