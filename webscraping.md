@@ -1,5 +1,7 @@
 ## Data Engineer - Webscraping
 
+The two easiest and legal methods to collect data from other webiste is to through `URL` and `APIs`.
+
 In this part you will:
 
 *   Use webscraping to get bank information
