@@ -4,9 +4,6 @@ I apply Data Modeling with Postgres and build an ETL pipeline using Python.
 
 Assume a starup company wants to analyze the data they've been collecting on songs and user activity on their new music streaming app the analytics team is particularly interested in understanding what songs users are listening to.
 
-** I created a database schema and ETL pipeline for this analysis. ** 
-
-
 Currently, the JSON data resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 ## My data sources:
@@ -34,7 +31,7 @@ Sample Record :
 3. **create_tables.py** drops and creates tables. You run this file to reset your tables before each time you run your ETL scripts.
 4. **etl.py** reads and processes files from song_data and log_data and loads them into your tables. 
 
-### Break down of steps followed
+### Break down of steps
 
 1 Wrote DROP, CREATE and INSERT query statements in sql_queries.py
 
